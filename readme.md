@@ -53,7 +53,7 @@ The input JSON should follow this structure:
 }
 ```
 
--->Example
+## Example
 
 For the given input files, the script will output:
 ```
