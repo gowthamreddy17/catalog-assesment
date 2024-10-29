@@ -3,14 +3,12 @@ Shamir's Secret Sharing - Constant Term Calculator
 
 This project implements a simplified version of Shamir's Secret Sharing algorithm to find the constant term \( c \) of a polynomial using Lagrange interpolation. The input is provided in JSON format, containing points in different bases.
 
-## Features
+-->Features
 - Decodes values from different bases.
 - Utilizes Lagrange interpolation to compute the polynomial's constant term.
 
-## Installation
-
+-->Installation
 Clone the repository:
-```bash
 https://github.com/gowthamreddy17/catalog-assesment.git
 ```
 
@@ -19,7 +17,7 @@ https://github.com/gowthamreddy17/catalog-assesment.git
 Create JSON files (`input.json`, `input1.json`) in the project directory with the required format.
 
 Run the script to find the constant terms:
-```bash
+```
 node index.js
 ```
 
@@ -53,7 +51,7 @@ The input JSON should follow this structure:
 }
 ```
 
-## Example
+-->Example
 
 For the given input files, the script will output:
 ```
@@ -62,5 +60,4 @@ Secret value for Test Case 2: 79836264046592
 ```
 ```
 
-Feel free to adjust any sections as needed!
 
